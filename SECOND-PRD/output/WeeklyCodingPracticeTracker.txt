@@ -1,0 +1,11 @@
+Weekly coding Practice Tracker
+Total Promblems Attempted : 50
+Total Problem Solved :37
+Success Percentage :74.0%
+Total Hours :15.5
+Average Problem Solved Per Day: 5.285714285714286
+
+Productive Days :6
+Non-Productive Days :1
+Weekly Target : Achieved
+Consistency Status: Good
