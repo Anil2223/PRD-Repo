@@ -1,0 +1,12 @@
+Placement ready evaluation
+Student Name:Anil
+Academic Status :Eligible
+Backlog Status :Eligible
+Attendance Status :Eligible
+Project Status:Completed
+Communication Status :Eligible
+Aptitude Status :Eligible
+
+
+Final Result:PLACEMENT READY
+Message :All placement requirement are satisfied

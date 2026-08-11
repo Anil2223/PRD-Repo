@@ -1,0 +1,12 @@
+Another Possibility Output 
+Student Name:Vikas
+Academic Status :Eligible
+Attendance Status :not Eligible
+Backlog Status :Eligible
+Project Status:Need to complete project
+Communication Status :Eligible
+Aptitude Status :not eligible
+
+
+Final Result:NOT PLACEMENT READY
+Areas to Improve Attendance Project Completion Project Completion Aptitude Score
