@@ -1,0 +1,10 @@
+-----------------------Academic Summary-----------------------------
+Java Marks: 80
+SQL Marks: 88
+Web Technology Marks: 87
+Aptitude Marks: 99
+Communication Marks: 70
+Total Marks: 424
+Percentage: 84.8
+Academic Result: pass
+Grade: A

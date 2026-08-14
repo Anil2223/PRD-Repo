@@ -1,0 +1,54 @@
+ 
+ -----------------------------------STUDENT SEMESTER REPORT---
+Student ID: 1
+Student Name: Anil kumar
+Age: 25
+Course: B.E/B.Tech
+Semester: 4
+Career Goal:software development
+-----------------------Academic Summary----------------------
+Java Marks: 80
+SQL Marks: 88
+Web Technology Marks: 87
+Aptitude Marks: 99
+Communication Marks: 70
+Total Marks: 424
+Percentage: 84.8
+Academic Result: true
+Grade: A
+--------------------------Attendance-------------------------
+Attendance89
+Total classes conducted:100
+Attendence percentage:89.0%
+Attendance Status : REGULAR
+----------------Assignment Score Processing------------------
+How many assignment scores do you want to enter ?
+3
+Enter score for assignment 1 (0-10, -1 to finish): 8 
+Assignment score accepted.
+Enter score for assignment 2 (0-10, -1 to finish): 7
+Assignment score accepted.
+Enter score for assignment 3 (0-10, -1 to finish): 9
+Assignment score accepted.
+
+Valid assignments: 3
+Assignment total: 24
+Assignment average: 8.00
+Assignment status: SATISFACTORY
+-------------------Scholarship Calculation-------------------
+Base fee: 50000
+ScholarshipDiscount: 5%
+Scholarship amount: 2500.0
+Final Payable Fee: 49995.0
+---------------------------Fee payment code outputs----------
+Enter amount paid :
+20000
+Amount Paid: 20000.0
+Feee Balance: 29995.0
+Fee Status :PENDING
+---------------------Final Semester Clearance----------------
+Clearance Status :Not Promoted .ACTION REQUIRED
+Failed Conditions
+fee Balance is not zero
+----------Recommendations------------------------------------
+Pay the pending semester fee before clearance
