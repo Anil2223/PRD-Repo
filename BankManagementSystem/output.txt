@@ -1,0 +1,10 @@
+Bank Name:BOB
+User Id: Anil
+accountNumber: 111213
+accountType: Saving
+User Name :Anil
+User ID :1
+Account Number: 111213
+Account Type: Saving
+The Summary containing the bank name BOB andaccount number 111213,Account Type Savingand Balance 1000.0
+minimum Balance is maintained
