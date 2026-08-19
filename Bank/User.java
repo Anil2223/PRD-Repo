@@ -1,15 +1,15 @@
-package BankManagementSystem;
+package Bank;
 
-public class Customer {
+public class User {
     String BankName;
     int userId;
     String userName;
     long accountNumber;
     String accountType;
     double balance;
-    int minBalance = 500;
+    double minBalance = 500;
 
-    public Customer(String BankName, int userId, long accountNumber, String accountType, double balance) {
+    public User(String BankName, int userId, long accountNumber, String accountType, double balance) {
         this.BankName = BankName;
         this.userId = userId;
         this.accountNumber = accountNumber;
@@ -18,10 +18,9 @@ public class Customer {
     }
 
     void displayBankDetails() {
+        System.out.println("Bank Details ");
         System.out.println("Bank Name:" + BankName);
-        System.out.println("User Id: " + userName);
         System.out.println("accountNumber: " + accountNumber);
-        System.out.println("accountType: " + accountType);
 
     }
 
@@ -34,6 +33,7 @@ public class Customer {
     void displayAccountDetails() {
         System.out.println("Account Number: " + accountNumber);
         System.out.println("Account Type: " + accountType);
+        System.out.println("Current Balance: " + balance);
     }
 
     void createAccountSummary() {
@@ -41,14 +41,41 @@ public class Customer {
                 "account number " + accountNumber + ",Account Type " + accountType + "and Balance " + balance);
     }
 
+    // deposit balance deposit
+    boolean deposit(double amount) {
+        if (amount > -1) {
+            balance += amount;
+
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    // minimum balance
     boolean minimumBalance() {
-        boolean minimumBalance = false;
-        if (minBalance <= balance) {
-            minimumBalance = true;
+
+        if (balance > minBalance) {
+
+            return true;
+        } else {
+            return false;
         }
 
-        return minimumBalance;
+    }
 
+    // withdraw amount .
+    boolean withdraw(double amount) {
+        if (amount < balance && balance > minBalance) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    // Check Balance
+    double checkBalance() {
+        return balance;
     }
 
 }
